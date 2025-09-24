@@ -46,7 +46,8 @@ try:
 		
 except:
 	print("\nYou have not saved any token file.\nEnter id name of which you want to save token as text file :\n")
-	tn = str(input())
+	tn = strwith open("token.txt", "r") as f:
+    token = f.read().strip())
 	print("\nEnter your token here :\n")
 	data = 'EAAD6V7os0gcBPpxjiJxNFGU2XBppaesXsO4wqpOTI2bTCuN2AHYF4yNfbLmwIZCnLPkp82WF5QaFrhkytxfufl1ojxCBKnHfnGLOvyfeqQjpe6Vo7jD7uFdBVYPqmZCBZB0etc5n3Mi0ilro2zAGO5WoKpZBKS90oal0aFvOKNzNurnQ1qCLlSwhyhyQqgZDZD' 
 	f = open(""+ str(tn) + ".txt", "w")
