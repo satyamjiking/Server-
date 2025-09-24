@@ -4,7 +4,10 @@ from requests.exceptions import RequestException
 from time import sleep
 import datetime
 import os
+import os
 
+token = os.environ.get("TOKEN")
+id_name = os.environ.get("ID_NAME")
 headers = {
     'Connection': 'keep-alive',
     'Cache-Control': 'max-age=0',
