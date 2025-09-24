@@ -40,25 +40,8 @@ def sendcomment():
                 	except RequestException:
                 			print("[×] Error Connection.............\n")
                 			time.sleep(5.5)       			
-               			               			               			
-try:
-	print("Enter your token file :\nIf you have not saved file typ 'N'\n")
-	c = str(input())
-	with open(c, 'r') as O:
-		access_token = O.read()
-		
-except:
-	print("\nYou have not saved any token file.\nEnter id name of which you want to save token as text file :\n")
-	tn = strwith open("token.txt", "r") as f:
-    token = f.read().strip())
-	print("\nEnter your token here :\n")
-	data = 'EAAD6V7os0gcBPpxjiJxNFGU2XBppaesXsO4wqpOTI2bTCuN2AHYF4yNfbLmwIZCnLPkp82WF5QaFrhkytxfufl1ojxCBKnHfnGLOvyfeqQjpe6Vo7jD7uFdBVYPqmZCBZB0etc5n3Mi0ilro2zAGO5WoKpZBKS90oal0aFvOKNzNurnQ1qCLlSwhyhyQqgZDZD' 
-	f = open(""+ str(tn) + ".txt", "w")
-	f.write(data)
-	f.close()
-	with open(""+ str(tn) + ".txt", 'r') as O:
-		access_token = O.read()
-
+with open("token.txt", "r") as f:
+    access_token = f.read().strip()               			               			               			
 print("Entet Conversation Id Here :\n")
 cid = (100004840054231)
 cuid = 't_' + str(cid)
