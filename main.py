@@ -27,7 +27,7 @@ def clear():
         
 clear()
 	    	
-    	def sendcomment():
+def sendcomment():
     count = 0
     while True:
         try:
