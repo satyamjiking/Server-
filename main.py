@@ -52,7 +52,7 @@ np = 'file.txt'
 f = open(np, 'r')
 lines = f.readlines()
 f.close()
-clear()
-sendcomment()
+from keep_alive import keep_alive
 
-keep_alive()
+keep_alive()      
+sendcomment()     
