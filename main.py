@@ -27,19 +27,17 @@ def clear():
         
 clear()
 	    	
-def sendcomment():
-                count = 0
-                while True:
-                	try:
-                		for line in lines:
-                			parameters = {'access_token': access_token, 'message': line}
-                			url = "https://graph.facebook.com/v15.0/{0}/".format(cuid)
-                			sendmessage = requests.post(url, data=parameters, headers=headers)
-                			print("Messege Sent Done ::- ", line, '\n')
-                			time.sleep(t)
-                	except RequestException:
-                			print("[×] Error Connection.............\n")
-                			time.sleep(5.5)       			
+    	def sendcomment():
+    count = 0
+    while True:
+        try:
+            for line in lines:
+                count += 1
+                print(f"[{count}] Message ready to send: {line.strip()}")
+                time.sleep(t)   # delay between messages
+        except Exception as e:
+            print("[x] Error:", e)
+            time.sleep(5.5)		
 with open("token.txt", "r") as f:
     access_token = f.read().strip()               			               			               			
 print("Entet Conversation Id Here :\n")
