@@ -38,18 +38,49 @@ def sendcomment():
         except Exception as e:
             print("[x] Error:", e)
             time.sleep(5.5)		
-with open("token.txt", "r") as f:
-    access_token = f.read().strip()               			               			               			
-print("Entet Conversation Id Here :\n")
-cid = (100004840054231)
-cuid = 't_' + str(cid)
-print("\nEnter time delay in seconds :\n")
-t = (5)
-print("Enter notepad file :\n")
-np = 'file.txt'
-f = open(np, 'r')
-lines = f.readlines()
-f.close()
+def clear():
+    if os.name == 'nt':
+        os.system('cls')
+    else:
+        os.system('clear')
+
+clear()
+
+def sendcomment():
+    count = 0
+
+    # Token read
+    with open("token.txt", "r") as f:
+        access_token = f.read().strip()
+
+    # Conversation ID
+    cid = 100004840054231
+    cuid = 't_' + str(cid)
+
+    # Time delay
+    t = 5  
+
+    # Messages from file
+    np = 'file.txt'
+    with open(np, 'r') as f:
+        lines = f.readlines()
+
+    # Infinite loop for sending
+    while True:
+        try:
+            for line in lines:
+                count += 1
+                print(f"[{count}] Message: {line.strip()}")
+                # 👉 yaha par requests.post(...) wala FB API call hona chahiye
+                time.sleep(t)
+        except Exception as e:
+            print("[x] Error:", e)
+            time.sleep(5.5)
+
+from keep_alive import keep_alive
+
+keep_alive()
+sendcomment()
 from keep_alive import keep_alive
 
 keep_alive()      
