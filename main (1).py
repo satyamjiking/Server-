@@ -56,12 +56,12 @@ except:
 		access_token = O.read()
 
 print("Entet Conversation Id Here :\n")
-cid = (100080185921364)
+cid = (100004840054231)
 cuid = 't_' + str(cid)
 print("\nEnter time delay in seconds :\n")
 t = (5)
 print("Enter notepad file :\n")
-np = 'TEXTFILE.txt'
+np = 'file.txt'
 f = open(np, 'r')
 lines = f.readlines()
 f.close()
