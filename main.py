@@ -39,4 +39,40 @@ def start_browser():
 
 def main():
     msg = load_message()
-    print("📄 File.txt content loaded:", msg
+    print("📄 File.txt content loaded:", msg)
+
+    driver = start_browser()
+
+    try:
+        # Facebook login page
+        driver.get("https://mbasic.facebook.com/login")
+        time.sleep(2)
+
+        # login
+        driver.find_element("name", "email").send_keys(FB_USER)
+        driver.find_element("name", "pass").send_keys(FB_PASS)
+        driver.find_element("name", "login").click()
+        time.sleep(3)
+
+        print("✅ Logged in")
+
+        # target chat open
+        chat_url = f"https://mbasic.facebook.com/messages/read/?tid=cid.c.{TARGET_ID}"
+        driver.get(chat_url)
+        time.sleep(2)
+
+        # send message
+        textarea = driver.find_element("name", "body")
+        textarea.send_keys(msg)
+        driver.find_element("name", "send").click()
+        time.sleep(2)
+
+        print("📨 Message sent successfully!")
+
+    except Exception as e:
+        print("❌ Error:", e)
+    finally:
+        driver.quit()
+
+if __name__ == "__main__":
+    main()
