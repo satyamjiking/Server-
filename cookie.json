@@ -1,22 +1,16 @@
-[
-  {
-    "name": "c_user",
-    "value": "100082908990631"
-  },
-  {
-    "name": "xs",
-    "value": "28%3AT65CFoLyuLdb0A%3A2%3A1759067452%3A-1%3A-1"
-  },
-  {
-    "name": "fr",
-    "value": "0f2WsL9ep3oxJIF4X.AWc86DdKZ5d4PK_N96Z0BEaiVxrh7zHAMXCahHvCyNiH3HtEXH4.Bo2TpD..AAA.0.0.Bo2T1D.AWd-jzd2yhEBswruoFmGHgfH23k"
-  },
-  {
-    "name": "datr",
-    "value": "QzrZaBTlD8TNePObmmCvMdtE"
-  },
-  {
-    "name": "sb",
-    "value": "QzrZaKd8Dz7_x_jbHsC0s-Es"
-  }
-]
+{
+  "fr": "00DWw8HJPgiAx20uD.AWd0Sl9dcBMC6cz5ZgxXH5tYGdhdg6ejK72M5wKlU7xpge7SBwE.Bo1Az0..AAA.0.0.Bo2a3a.AWcSdOlSvbOt31z2aikbAz2CW1o",
+  "pas": "100036815892828%3AC6jbj6GwmC",
+  "m_pixel_ratio": "2.75",
+  "locale": "en_GB",
+  "vpd": "v1%3B598x392x2.75",
+  "fbl_st": "101217218%3BT%3A29313511",
+  "xs": "42%3A2W8whvt36bFHhA%3A2%3A1758727478%3A-1%3A-1",
+  "c_user": "100036815892828",
+  "ps_n": "1",
+  "sb": "9AzUaKhUwhhQSjvEMoGf2oTx",
+  "wd": "393x851",
+  "wl_cbv": "v2%3Bclient_version%3A2935%3Btimestamp%3A1758810692",
+  "ps_l": "1",
+  "datr": "9AzUaJGm5W_ZQVDNqwwcc0E_"
+}
