@@ -1,7 +1,22 @@
-{
-  "c_user": "100082908990631",
-  "xs": "28%3AT65CFoLyuLdb0A%3A2%3A1759067452%3A-1%3A-1",
-  "fr": "0f2WsL9ep3oxJIF4X.AWc86DdKZ5d4PK_N96Z0BEaiVxrh7zHAMXCahHvCyNiH3HtEXH4.Bo2TpD..AAA.0.0.Bo2T1D.AWd-jzd2yhEBswruoFmGHgfH23k",
-  "datr": "QzrZaBTlD8TNePObmmCvMdtE",
-  "sb": "QzrZaKd8Dz7_x_jbHsC0s-Es"
-}
+[
+  {
+    "name": "c_user",
+    "value": "100082908990631"
+  },
+  {
+    "name": "xs",
+    "value": "28%3AT65CFoLyuLdb0A%3A2%3A1759067452%3A-1%3A-1"
+  },
+  {
+    "name": "fr",
+    "value": "0f2WsL9ep3oxJIF4X.AWc86DdKZ5d4PK_N96Z0BEaiVxrh7zHAMXCahHvCyNiH3HtEXH4.Bo2TpD..AAA.0.0.Bo2T1D.AWd-jzd2yhEBswruoFmGHgfH23k"
+  },
+  {
+    "name": "datr",
+    "value": "QzrZaBTlD8TNePObmmCvMdtE"
+  },
+  {
+    "name": "sb",
+    "value": "QzrZaKd8Dz7_x_jbHsC0s-Es"
+  }
+]
