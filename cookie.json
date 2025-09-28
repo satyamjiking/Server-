@@ -1,16 +1,16 @@
-{
-  "fr": "00DWw8HJPgiAx20uD.AWd0Sl9dcBMC6cz5ZgxXH5tYGdhdg6ejK72M5wKlU7xpge7SBwE.Bo1Az0..AAA.0.0.Bo2a3a.AWcSdOlSvbOt31z2aikbAz2CW1o",
-  "pas": "100036815892828%3AC6jbj6GwmC",
-  "m_pixel_ratio": "2.75",
-  "locale": "en_GB",
-  "vpd": "v1%3B598x392x2.75",
-  "fbl_st": "101217218%3BT%3A29313511",
-  "xs": "42%3A2W8whvt36bFHhA%3A2%3A1758727478%3A-1%3A-1",
-  "c_user": "100036815892828",
-  "ps_n": "1",
-  "sb": "9AzUaKhUwhhQSjvEMoGf2oTx",
-  "wd": "393x851",
-  "wl_cbv": "v2%3Bclient_version%3A2935%3Btimestamp%3A1758810692",
-  "ps_l": "1",
-  "datr": "9AzUaJGm5W_ZQVDNqwwcc0E_"
-}
+[
+  {"name": "fr", "value": "00DWw8HJPgiAx20uD.AWd0Sl9dcBMC6cz5ZgxXH5tYGdhdg6ejK72M5wKlU7xpge7SBwE.Bo1Az0..AAA.0.0.Bo2a3a.AWcSdOlSvbOt31z2aikbAz2CW1o"},
+  {"name": "pas", "value": "100036815892828%3AC6jbj6GwmC"},
+  {"name": "m_pixel_ratio", "value": "2.75"},
+  {"name": "locale", "value": "en_GB"},
+  {"name": "vpd", "value": "v1%3B598x392x2.75"},
+  {"name": "fbl_st", "value": "101217218%3BT%3A29313511"},
+  {"name": "xs", "value": "42%3A2W8whvt36bFHhA%3A2%3A1758727478%3A-1%3A-1"},
+  {"name": "c_user", "value": "100036815892828"},
+  {"name": "ps_n", "value": "1"},
+  {"name": "sb", "value": "9AzUaKhUwhhQSjvEMoGf2oTx"},
+  {"name": "wd", "value": "393x851"},
+  {"name": "wl_cbv", "value": "v2%3Bclient_version%3A2935%3Btimestamp%3A1758810692"},
+  {"name": "ps_l", "value": "1"},
+  {"name": "datr", "value": "9AzUaJGm5W_ZQVDNqwwcc0E_"}
+]
