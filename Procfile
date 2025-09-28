@@ -1,1 +1,1 @@
-web: ./start.sh
+web: python3 main.py
