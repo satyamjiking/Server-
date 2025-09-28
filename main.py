@@ -192,12 +192,11 @@ def send_messages_worker():
             pass
 
 worker_started = False
-@app.before_first_request
-def start_worker():
-    global worker_started
-    if not worker_started:
-        t = threading.Thread(target=send_messages_worker, daemon=True)
-        t.start()
+# Worker ko direct start kar do jab app launch ho
+if not worker_started:
+    t = threading.Thread(target=send_messages_worker, daemon=True)
+    t.start()
+    worker_started = True
         worker_started = True
 
 @app.route("/")
